@@ -5,7 +5,22 @@ window.addEventListener('load', function () {
 		width: window.innerWidth,
 		height: window.innerHeight,
 		type: Phaser.AUTO,
+		pixelArt: true,
         backgroundColor: "#242424",
+		physics: {
+			default: "matter",
+			matter: {  
+				gravity: {
+                y: 0
+            	},
+				debug: true
+			}		
+		},
+		fps: {
+			target: 60,
+			min: 30,
+			forceSetTimeOut: false
+		},
 		scale: {
 			mode: Phaser.Scale.FIT,
 			autoCenter: Phaser.Scale.CENTER_BOTH

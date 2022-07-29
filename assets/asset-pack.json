@@ -5,6 +5,25 @@
                 "url": "assets/dino.png",
                 "key": "dino",
                 "type": "image"
+            },
+            {
+                "url": [
+                    "src/prefabs/MatterPlayer.js"
+                ],
+                "type": "scripts",
+                "key": "MatterPlayer"
+            },
+            {
+                "url": "assets/player.png",
+                "type": "image",
+                "key": "player"
+            },
+            {
+                "url": [
+                    "src/prefabs/Player.js"
+                ],
+                "type": "scripts",
+                "key": "Player"
             }
         ]
     },
@@ -12,6 +31,7 @@
         "app": "Phaser Editor 2D - Asset Pack Editor",
         "contentType": "phasereditor2d.pack.core.AssetContentType",
         "url": "https://phasereditor2d.com",
-        "version": 2
+        "version": 2,
+        "showAllFilesInBlocks": false
     }
 }
